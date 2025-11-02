@@ -7,3 +7,6 @@ added a function search string to count how many letter 't' where in the word co
 used const and while loop to determine outcome
 - Update 3:
 added function to output the circumference of a circle.
+- Update 4:
+added function to find the minimum of two numbers
+used an if else statement to find the result
