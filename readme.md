@@ -3,4 +3,5 @@ Purpose: Show understanding of functions
 - Update 1: 
 Created Readme file, added Author and purpose to file.
 - Update 2: 
-added a function search string to spell out the word 'constantinople" one letter at a time.
+added a function search string to count how many letter 't' where in the word constantinople
+used const and while loop to determine outcome

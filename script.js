@@ -11,8 +11,12 @@
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
-
-let input = "constantinople"
-for(let i = 0; i < input.length; i++) {
-    console.log(input[i]); // outputs the input one letter at a time, 14 letters.
+const word1 = "constantinople";
+const letter1 = "t";
+let count = 0;
+let pos = word1.indexOf(letter1);
+while (pos !== -1) {
+    count++;
+    pos = word1.indexOf(letter1, pos + letter1.length);
 }
+console.log(count);
