@@ -11,3 +11,8 @@
 // Example Output:
 // console.log(searchString(“s”, “mississippi”)); // will output 4
 // console.log(searchString(“q”, “mississippi”)); // will output 0
+
+let input = "constantinople"
+for(let i = 0; i < input.length; i++) {
+    console.log(input[i]); // outputs the input one letter at a time, 14 letters.
+}
